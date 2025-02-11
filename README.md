@@ -24,3 +24,5 @@
 - Access to ClickHouse `docker exec -it <container id> clickhouse-client`, enter password at `CLICKHOUSE_ADMIN_PASSWORD` in docker compose file
 - Run SQL command in init.sql file
 - Call POST request to `http://localhost:8084/connectors` with body in `clickhouse-kafka-connect-config.json`, a connector between `transformed_orders` topic and ClickHouse will be generated
+![image](https://github.com/user-attachments/assets/5f616cec-c316-42eb-81c8-d3d9fdfd33c7)
+
