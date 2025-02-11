@@ -7,8 +7,7 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # install PyFlink
 
-COPY apache-flink*.tar.gz /
-RUN pip3 install /apache-flink-libraries*.tar.gz && pip3 install /apache-flink*.tar.gz
+RUN pip3 install apache-flink==1.20.0
 
 WORKDIR /opt/flink
 
